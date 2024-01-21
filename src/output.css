@@ -753,12 +753,12 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
 .mt-24{
   margin-top: 6rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .box-border{
@@ -876,8 +876,8 @@ video {
   width: 28%;
 }
 
-.w-\[50\%\]{
-  width: 50%;
+.w-\[60\%\]{
+  width: 60%;
 }
 
 .w-\[this-is\\\\\]{
@@ -892,12 +892,56 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[0\%\]{
+  width: 0%;
+}
+
+.w-\[65\%\]{
+  width: 65%;
+}
+
+.w-\[\%\]{
+  width: %;
+}
+
+.w-\[70\%\]{
+  width: 70%;
+}
+
+.w-\[72\%\]{
+  width: 72%;
+}
+
 .max-w-\[50\%\]{
   max-width: 50%;
 }
 
+.max-w-\[60\%\]{
+  max-width: 60%;
+}
+
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-\[0\%\]{
+  max-width: 0%;
+}
+
+.max-w-\[65\%\]{
+  max-width: 65%;
+}
+
+.max-w-\[\%\]{
+  max-width: %;
+}
+
+.max-w-\[70\%\]{
+  max-width: 70%;
+}
+
+.max-w-\[72\%\]{
+  max-width: 72%;
 }
 
 .flex-shrink{
@@ -2088,10 +2132,6 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.pt-24{
-  padding-top: 6rem;
 }
 
 .text-left{
