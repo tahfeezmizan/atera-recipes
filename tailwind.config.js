@@ -6,7 +6,8 @@ module.exports = {
       colors: {
         lightYellow: "#FFFFE9",
         secondary: "#ebedef",
-        primaryBtn: "#F3F25B"
+        primaryBtn: "#F3F25B",
+        bgDark: "#201F1F"
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
