@@ -4,13 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#fd5442",
+        lightYellow: "#FFFFE9",
         secondary: "#ebedef",
+        primaryBtn: "#F3F25B"
       },
       fontFamily: {
-        inter : [inter, 'sans-serif']
-        lato : [Lato, 'sans-serif']
-        SourceSerif4 : ['Source Serif 4', 'serif']
+        inter: ['Inter', 'sans-serif'],
+        lato: ['Lato', 'sans-serif'],
+        SourceSerif4: ['Source Serif 4', 'serif'],
       }
     },
   },

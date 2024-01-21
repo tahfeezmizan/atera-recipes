@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.inter{
+    font-family: 'Inter', sans-serif;
+}
 
+.source-sarif{
+    font-family: 'Source Serif 4', serif;
+}
 
+.lato{
+    font-family: 'Lato', sans-serif;
+}
 

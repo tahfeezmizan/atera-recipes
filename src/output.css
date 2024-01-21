@@ -707,22 +707,31 @@ video {
   clear: none;
 }
 
+.-m-0{
+  margin: -0px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+.my-28{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
-.mb-28{
-  margin-bottom: 7rem;
+.-mx-0{
+  margin-left: -0px;
+  margin-right: -0px;
 }
 
 .mb-3{
   margin-bottom: 0.75rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .mb-9{
@@ -731,6 +740,34 @@ video {
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mb-28{
+  margin-bottom: 7rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mr-0{
+  margin-right: 0px;
+}
+
+.-mr-8{
+  margin-right: -2rem;
+}
+
+.-mr-96{
+  margin-right: -24rem;
+}
+
+.ml-7{
+  margin-left: 1.75rem;
 }
 
 .box-border{
@@ -832,12 +869,20 @@ video {
   display: none;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .h-14{
   height: 3.5rem;
 }
 
 .h-24{
   height: 6rem;
+}
+
+.w-\[50\%\]{
+  width: 50%;
 }
 
 .w-\[this-is\\\\\]{
@@ -852,8 +897,16 @@ video {
   width: weird-and-invalid;
 }
 
-.max-w-screen-xl{
-  max-width: 1280px;
+.w-\[50\]{
+  width: 50;
+}
+
+.max-w-\[50\%\]{
+  max-width: 50%;
+}
+
+.max-w-full{
+  max-width: 100%;
 }
 
 .flex-shrink{
@@ -1764,6 +1817,14 @@ video {
   border-width: 1px;
 }
 
+.border-4{
+  border-width: 4px;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
 .border-x{
   border-left-width: 1px;
   border-right-width: 1px;
@@ -1776,10 +1837,6 @@ video {
 
 .border-b{
   border-bottom-width: 1px;
-}
-
-.border-b-4{
-  border-bottom-width: 4px;
 }
 
 .border-e{
@@ -1826,14 +1883,19 @@ video {
   border-style: none;
 }
 
+.border-lightYellow{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 233 / var(--tw-border-opacity));
+}
+
+.border-primaryBtn{
+  --tw-border-opacity: 1;
+  border-color: rgb(243 242 91 / var(--tw-border-opacity));
+}
+
 .bg-\[\#CBCDA9\]{
   --tw-bg-opacity: 1;
   background-color: rgb(203 205 169 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#FFFFE9\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 233 / var(--tw-bg-opacity));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
@@ -1841,9 +1903,14 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-primary{
+.bg-lightYellow{
   --tw-bg-opacity: 1;
-  background-color: rgb(253 84 66 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 233 / var(--tw-bg-opacity));
+}
+
+.bg-primaryBtn{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 242 91 / var(--tw-bg-opacity));
 }
 
 .decoration-slice{
@@ -1864,6 +1931,10 @@ video {
 .box-decoration-clone{
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-cover{
+  background-size: cover;
 }
 
 .bg-fixed{
@@ -1893,6 +1964,10 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center{
+  background-position: center;
 }
 
 .bg-repeat{
@@ -1956,9 +2031,24 @@ video {
      object-fit: scale-down;
 }
 
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-7{
   padding-left: 1.75rem;
   padding-right: 1.75rem;
+}
+
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-4{
@@ -1971,12 +2061,13 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-2{
-  padding-bottom: 0.5rem;
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
-.pt-10{
-  padding-top: 2.5rem;
+.pb-2{
+  padding-bottom: 0.5rem;
 }
 
 .text-left{
@@ -2069,6 +2160,10 @@ video {
   font-weight: 700;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .font-medium{
   font-weight: 500;
 }
@@ -2157,6 +2252,11 @@ video {
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-gray-500{
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -2489,6 +2589,18 @@ video {
   forced-color-adjust: none;
 }
 
+.inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.source-sarif{
+  font-family: 'Source Serif 4', serif;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -2553,6 +2665,17 @@ video {
   }
 }
 
+@media (min-width: 768px){
+  .md\:w-\[1140px\]{
+    width: 1140px;
+  }
+
+  .md\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 @media (prefers-color-scheme: dark){
   @media (min-width: 1024px){
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
@@ -2560,7 +2683,4 @@ video {
     }
   }
 }
-
-
-
 
