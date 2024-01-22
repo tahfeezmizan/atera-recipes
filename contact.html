@@ -17,43 +17,53 @@
 
     <header class="">
         <div class="bg-[#CBCDA9] h-14"></div>
-        <nav class="bg-lightYellow  h-24">
-            <div class="md:w-[1140px] px-5 md:px-0 mx-auto flex items-center justify-center">
-                <ul class="py-8 flex items-center gap-14">
-                    <li><a class="inter text-lg font-medium" href="index.html">Home</a></li>
-                    <li><a class="inter text-lg font-medium" href="#">About</a></li>
-                    <li><a class="inter text-lg font-medium" href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="">
+            <nav class="bg-lightYellow  h-24">
+                <div class="w-[100%] lg:w-[1140px] md:px-4 mx-auto flex items-center justify-center">
+                    <ul class="py-8 flex items-center gap-14">
+                        <li><a class="inter text-lg font-medium" href="index.html">Home</a></li>
+                        <li><a class="inter text-lg font-medium" href="#">About</a></li>
+                        <li><a class="inter text-lg font-medium" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
         <!-- contact section  -->
-        <section class="p-12 pb-32 bg-lightYellow">
-            <div class="banner-container xl:w-[1140px] md:w-full md:px-5 mx-auto">
+        <section class="pt-12 pb-32 px-12 bg-lightYellow">
+            <div class="banner-container w-[1140px] md:w-[100%] md:px-4 mx-auto">
                 <div class="text-center">
                     <h1 class="source-sarif text-8xl text-black font-bold mb-3">Contact Us</h1>
                     <p class="lato text-2xl mb-20 text-black">Get in touch! Have a question or feedback? Use our contact
-                        <br>form or drop us an email. We're here to help!</p>
+                        <br>form or drop us an email. We're here to help!
+                    </p>
                 </div>
                 <!-- contact form  -->
                 <div class="flex justify-center items-center w-[870px] mx-auto">
+
                     <div class="input-filed w-1/2  flex flex-col px-8 py-16 bg-gray-900 rounded-tl-8 rounded-bl-8">
                         <h2 class="text-3xl mb-3 pt-3 text-white">Get in touch with us</h2>
 
                         <label for="name" class="lexend-deca text-sm text-[#CCC6C6] mb-1">Name</label>
-                        <input type="text" class="w-11/12 border rounded-sm py-3 pl-3 mb-5 text-white border-gray-700 bg-gray-800 outline-none" placeholder="Rachel Joe" id="name">
+                        <input type="text"
+                            class="w-11/12 border rounded-sm py-3 pl-3 mb-5 text-white border-gray-700 bg-gray-800 outline-none"
+                            placeholder="Rachel Joe" id="name">
 
                         <label for="email" class="lexend-deca text-sm text-[#CCC6C6] mb-1">Name</label>
-                        <input type="email" class="w-11/12 border rounded-sm py-3 pl-3 mb-5 text-white bg-gray-800 border-gray-700 outline-none" placeholder="Rachel@domain.com" id="email">
+                        <input type="email"
+                            class="w-11/12 border rounded-sm py-3 pl-3 mb-5 text-white bg-gray-800 border-gray-700 outline-none"
+                            placeholder="Rachel@domain.com" id="email">
 
                         <label for="textarea" class="lexend-deca text-sm text-[#CCC6C6] mb-1">Message</label>
-                        <textarea name="" class="w-11/12 border rounded-sm pl-3 pt-2 mb-5 text-white bg-gray-800 border-gray-700 outline-none" id="textarea" placeholder="Type your query here....." cols="30" rows="3"></textarea>
+                        <textarea name=""
+                            class="w-11/12 border rounded-sm pl-3 pt-2 mb-5 text-white bg-gray-800 border-gray-700 outline-none"
+                            id="textarea" placeholder="Type your query here....." cols="30" rows="3"></textarea>
 
-                        <button class="btn w-1/2 bg-primaryBtn py-2 px-6 rounded-sm text-black text-sm mb-7">Send my message</button>
+                        <button class="btn w-1/2 bg-primaryBtn py-2 px-6 rounded-sm text-black text-sm mb-7">Send my
+                            message</button>
                     </div>
 
-                    <div class="map w-1/2">
+                    <div class="map w-1/2 hidden lg:block">
                         <img src="images/map.png" class="" alt="">
                     </div>
                 </div>
