@@ -918,8 +918,56 @@ video {
   width: 100%;
 }
 
+.w-\[1140px\]{
+  width: 1140px;
+}
+
 .max-w-full{
   max-width: 100%;
+}
+
+.max-w-lg{
+  max-width: 32rem;
+}
+
+.max-w-\[50\]{
+  max-width: 50;
+}
+
+.max-w-\[50\%\]{
+  max-width: 50%;
+}
+
+.max-w-\[70\%\]{
+  max-width: 70%;
+}
+
+.max-w-\[0\%\]{
+  max-width: 0%;
+}
+
+.max-w-\[90\%\]{
+  max-width: 90%;
+}
+
+.max-w-\[85\%\]{
+  max-width: 85%;
+}
+
+.max-w-\[88\%\]{
+  max-width: 88%;
+}
+
+.max-w-\[60\%\]{
+  max-width: 60%;
+}
+
+.max-w-\[8875\%\]{
+  max-width: 8875%;
+}
+
+.max-w-\[75\%\]{
+  max-width: 75%;
 }
 
 .flex-shrink{
@@ -2171,6 +2219,10 @@ video {
   padding-top: 0.75rem;
 }
 
+.pr-11{
+  padding-right: 2.75rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2803,6 +2855,14 @@ textarea {
 }
 
 @media (min-width: 640px){
+  .sm\:flex-col{
+    flex-direction: column;
+  }
+
+  .sm\:flex-col-reverse{
+    flex-direction: column-reverse;
+  }
+
   .sm\:underline{
     text-decoration-line: underline;
   }
@@ -2811,6 +2871,26 @@ textarea {
 @media (min-width: 768px){
   .md\:mb-9{
     margin-bottom: 2.25rem;
+  }
+
+  .md\:mb-28{
+    margin-bottom: 7rem;
+  }
+
+  .md\:mb-16{
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-20{
+    margin-bottom: 5rem;
+  }
+
+  .md\:ml-24{
+    margin-left: 6rem;
+  }
+
+  .md\:ml-36{
+    margin-left: 9rem;
   }
 
   .md\:w-\[1140px\]{
@@ -2825,8 +2905,24 @@ textarea {
     width: 100%;
   }
 
-  .md\:w-\[40\%\]{
-    width: 40%;
+  .md\:w-\[100\%\]{
+    width: 100%;
+  }
+
+  .md\:max-w-\[88\%\]{
+    max-width: 88%;
+  }
+
+  .md\:max-w-\[90\%\]{
+    max-width: 90%;
+  }
+
+  .md\:max-w-\[80\%\]{
+    max-width: 80%;
+  }
+
+  .md\:max-w-\[75\%\]{
+    max-width: 75%;
   }
 
   .md\:flex-col{
@@ -2851,14 +2947,24 @@ textarea {
     padding-right: 1.25rem;
   }
 
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -2869,8 +2975,20 @@ textarea {
 }
 
 @media (min-width: 1280px){
+  .xl\:ml-36{
+    margin-left: 9rem;
+  }
+
   .xl\:w-\[1140px\]{
     width: 1140px;
+  }
+
+  .xl\:max-w-\[75\%\]{
+    max-width: 75%;
+  }
+
+  .xl\:max-w-\[80\%\]{
+    max-width: 80%;
   }
 }
 
