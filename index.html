@@ -11,22 +11,23 @@
 
     <!-- output css file  -->
     <link href="./src/output.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
 
-    <header class="">
+    <header class="overflow-hidden">
         <div class="bg-[#CBCDA9] h-14"></div>
-        <nav class="bg-lightYellow  h-24">
-            <div class="md:w-[1140px] px-5 md:px-0 mx-auto flex items-center justify-center">
-                <ul class="py-8 flex items-center gap-14">
-                    <li><a class="inter text-lg font-medium" href="#">Home</a></li>
-                    <li><a class="inter text-lg font-medium" href="#">About</a></li>
-                    <li><a class="inter text-lg font-medium" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+        <div class="">
+            <nav class="bg-lightYellow  h-24">
+                <div class="md:w-[1140px] px-5 md:px-0 mx-auto flex items-center justify-center">
+                    <ul class="py-8 flex items-center gap-14">
+                        <li><a class="inter text-lg font-medium" href="#">Home</a></li>
+                        <li><a class="inter text-lg font-medium" href="#">About</a></li>
+                        <li><a class="inter text-lg font-medium" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
 
         <!-- banner section  -->
@@ -47,16 +48,16 @@
         </div>
     </header>
 
-    <main>
+    <main class="overflow-hidden">
         <!-- Preparing Students to Achieve Success section -->
-        <section class="py-12  bg-lightYellow">
+        <section class="py-12  bg-lightYellow overflow-hidden">
             <div class="xl:w-[1140px] md:w-full md:px-5 mx-auto overflow-hidden">
-                <h2 class="lato text-5xl text-center font-semibold mt-8 mb-28">Preparing Students to Achieve Success
+                <h2 class="lato text-5xl md:text-4xl text-center font-semibold mt-8 mb-28">Preparing Students to Achieve Success
                 </h2>
 
                 <div class="content">
                     <!-- fast content  -->
-                    <div class="flex justify-between items-center">
+                    <div class="flex justify-between items-center md:flex-col md:gap-6 md:mb-9">
                         <div class="">
                             <h3 class="source-sarif text-4xl font-semibold pb-2 ">Developing Confident and
                                 <br>Successful Learners
@@ -81,7 +82,7 @@
 
                 <div class="content">
                     <!-- fast content  -->
-                    <div class="flex justify-between items-center">
+                    <div class="flex justify-between items-center md:flex-col-reverse md:gap-6 md:mb-9">
                         <div class="lg:w-[50%] md:w-[50%]">
                             <img class="max-w-full" src="images/image 2.png" alt="">
                         </div>
@@ -106,7 +107,7 @@
 
                 <div class="content">
                     <!-- fast content  -->
-                    <div class="flex justify-between items-center">
+                    <div class="flex justify-between items-center md:flex-col md:gap-6">
                         <div class="">
                             <h3 class="source-sarif text-4xl font-semibold pb-2 ">Developing Confident and
                                 <br>Successful Learners
@@ -133,14 +134,16 @@
 
 
         <!-- Happy Customer Review  -->
-        <section class="py-12">
+        <section class="py-12 overflow-hidden">
             <div class="xl:w-[1140px] md:w-full md:px-5 mx-auto overflow-hidden">
                 <div class="my-20">
                     <div class="title-content flex justify-between mb-9">
                         <h2 class="text-3xl font-bold">Happy Customers Says</h2>
                         <div class="flex items-center gap-5">
-                            <i class="fa-solid fa-arrow-left bg-gray-200 p-4  cursor-pointer rounded-full text-gray-800"></i>
-                            <i class="fa-solid fa-arrow-right bg-orange-500 p-4 cursor-pointer rounded-full text-white"></i>
+                            <i
+                                class="fa-solid fa-arrow-left bg-gray-200 p-4  cursor-pointer rounded-full text-gray-800"></i>
+                            <i
+                                class="fa-solid fa-arrow-right bg-orange-500 p-4 cursor-pointer rounded-full text-white"></i>
                         </div>
                     </div>
                     <!-- card container  -->
@@ -166,7 +169,7 @@
 
 
         <!-- Why it’s works section -->
-        <section class="py-12 bg-lightYellow">
+        <section class="py-12 bg-lightYellow overflow-hidden">
             <div class="xl:w-[1140px] md:w-full md:px-5 mx-auto overflow-hidden">
                 <h2 class="lato text-5xl text-center font-semibold mt-8 mb-2">Why it’s works</h2>
                 <div class="mb-16">
@@ -176,19 +179,22 @@
                 <!-- card container  -->
                 <div class="flex items-center justify-center gap-12">
                     <div class="text-center">
-                        <img src="images/icon1.png" class="mb-6 flex text-center mx-auto" alt=""></img>
+                        <img src="images/icon1.png" class="mb-6 md:w-[50%] flex text-center mx-auto" alt=""></img>
                         <h4 class="source-sarif text-2xl font-semibold mb-3">Personalized learning</h4>
-                        <p class="lato text-lg">Students practice at their own pace, first filling in gaps in their understanding and then accelerating their learning.</p>
+                        <p class="lato text-lg">Students practice at their own pace, first filling in gaps in their
+                            understanding and then accelerating their learning.</p>
                     </div>
                     <div class="text-center">
-                        <img src="images/icon2.png" class="mb-6 flex text-center mx-auto" alt=""></img>
+                        <img src="images/icon2.png" class="mb-6 md:w-[50%] flex text-center mx-auto" alt=""></img>
                         <h4 class="source-sarif text-2xl font-semibold mb-3">Trusted content</h4>
-                        <p class="lato text-lg">Created by experts, library of trusted practice and lessons covers math, science, and more. Always free for learners and teachers.</p>
+                        <p class="lato text-lg">Created by experts, library of trusted practice and lessons covers math,
+                            science, and more. Always free for learners and teachers.</p>
                     </div>
                     <div class="text-center">
-                        <img src="images/icon3.png" class="mb-6 flex text-center mx-auto" alt=""></img>
+                        <img src="images/icon3.png" class="mb-6 md:w-[50%] flex text-center mx-auto" alt=""></img>
                         <h4 class="source-sarif text-2xl font-semibold mb-3">Tools to empower teachers</h4>
-                        <p class="lato text-lg">Teachers can identify gaps in their students’ understanding, tailor instruction, and meet the needs of every student.</p>
+                        <p class="lato text-lg">Teachers can identify gaps in their students’ understanding, tailor
+                            instruction, and meet the needs of every student.</p>
                     </div>
                 </div>
             </div>
@@ -196,7 +202,7 @@
 
         <!-- bottom hr line  -->
 
-        <section class="py-12 bg-lightYellow">
+        <section class="py-12 bg-lightYellow overflow-hidden">
             <div class="mt-24">
                 <hr class="border-8 mx-auto border-primaryBtn h-1 mb-6">
             </div>
