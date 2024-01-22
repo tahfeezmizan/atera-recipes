@@ -2744,6 +2744,10 @@ video {
   border-bottom-right-radius: 8px;
 }
 
+textarea {
+  resize: none;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
