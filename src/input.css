@@ -26,11 +26,23 @@
     border-bottom-left-radius: 8px;
 }
 
-.map img{
+.input-filed {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+
+.map img {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 }
 
 textarea {
     resize: none;
-  }
+}
+
+@media (min-width: 1024px){
+    .input-filed {
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+    }
+}
