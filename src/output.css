@@ -914,6 +914,14 @@ video {
   width: weird-and-invalid;
 }
 
+.w-\[50\%\]{
+  width: 50%;
+}
+
+.w-full{
+  width: 100%;
+}
+
 .max-w-\[50\%\]{
   max-width: 50%;
 }
@@ -2817,9 +2825,46 @@ textarea {
     width: 1140px;
   }
 
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:w-\[50\]{
+    width: 50;
+  }
+
+  .md\:w-\[50\%\]{
+    width: 50%;
+  }
+
+  .md\:max-w-full{
+    max-width: 100%;
+  }
+
   .md\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:w-\[1140px\]{
+    width: 1140px;
+  }
+
+  .lg\:w-\[50\%\]{
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-\[1140px\]{
+    width: 1140px;
   }
 }
 
