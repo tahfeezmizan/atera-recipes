@@ -1,20 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./**/*.{html,js}"],
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {
-      colors: {
-        lightYellow: "#FFFFE9",
-        secondary: "#ebedef",
-        primaryBtn: "#F3F25B",
-        bgDark: "#201F1F"
-      },
-      fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        lato: ['Lato', 'sans-serif'],
-        SourceSerif4: ['Source Serif 4', 'serif'],
-      }
-    },
+    extend: {},
   },
-  plugins: [],
-};
+  plugins: [require("daisyui")],
+}
+

@@ -1,0 +1,90 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/z8bxNYJ/img-1.png",
+        "recipe_id": "1",
+        "recipe_name": "Spaghetti Bolognesey",
+        "short_description": "A delicious and healthy chicken stir fry with basil leaves and mushrooms.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g basil leaves",
+            "400 g mushroom"
+        ],
+        "preparing_time": 30,
+        "calories": 600
+    },
+    {
+        "recipe_image": "https://i.ibb.co/8bQTKtx/img-2.png",
+        "recipe_id": "2",
+        "recipe_name": "Chicken Caesar Salad",
+        "short_description": "Classic Italian spaghetti with a rich and savory meat sauce.",
+        "ingredients": [
+            "500 g spaghetti",
+            "400 g ground beef",
+            "200 g tomato sauce",
+            "100 g onion",
+            "2 cloves garlic"
+        ],
+        "preparing_time": 25,
+        "calories": 450
+    },
+    {
+        "recipe_image": "https://i.ibb.co/kh5hWCV/img-3.jpg",
+        "recipe_id": "3",
+        "recipe_name": "Caesar Salad",
+        "short_description": "A fresh and crisp salad with romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
+        "ingredients": [
+            "1 head romaine lettuce",
+            "100 g croutons",
+            "50 g parmesan cheese",
+            "50 ml Caesar dressing"
+        ],
+        "preparing_time": 20,
+        "calories": 250
+    },
+    {
+        "recipe_image": "https://i.ibb.co/BLnSC2r/img-4.jpg",
+        "recipe_id": "4",
+        "recipe_name": "Vegetable Curry",
+        "short_description": "A flavorful and aromatic curry made with assorted vegetables and spices.",
+        "ingredients": [
+            "300 g mixed vegetables (carrot, potato, cauliflower)",
+            "200 ml coconut milk",
+            "100 g curry paste",
+            "50 g onion",
+            "2 cloves garlic"
+        ],
+        "preparing_time": 40,
+        "calories": 280
+    },
+    {
+        "recipe_image": "https://i.ibb.co/KmP0XQb/img-5.jpg",
+        "recipe_id": "5",
+        "recipe_name": "Grilled Salmon",
+        "short_description": "Juicy and tender grilled salmon fillets seasoned with herbs and lemon.",
+        "ingredients": [
+            "4 salmon fillets",
+            "50 ml olive oil",
+            "2 cloves garlic",
+            "1 lemon",
+            "Salt and pepper to taste"
+        ],
+        "preparing_time": 35,
+        "calories": 350
+    },
+    {
+        "recipe_image": "https://i.ibb.co/9pqCSCZ/img-6.jpg",
+        "recipe_id": "6",
+        "recipe_name": "Fruit Smoothie",
+        "short_description": "A refreshing and nutritious blend of assorted fruits and yogurt.",
+        "ingredients": [
+            "1 banana",
+            "100 g strawberries",
+            "100 g blueberries",
+            "200 ml yogurt",
+            "50 ml honey"
+        ],
+        "preparing_time": 15,
+        "calories": 200
+    }
+]

@@ -1,0 +1,10 @@
+.bg-img {
+    background: url(./assets/banner-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lexend {
+    font-family: "Lexend", sans-serif !important;
+
+}
